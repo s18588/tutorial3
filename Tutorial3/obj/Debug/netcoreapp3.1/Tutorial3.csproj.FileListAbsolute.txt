@@ -1,0 +1,17 @@
+/Users/michalarent/RiderProjects/Tutorial3/Tutorial3/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/Users/michalarent/RiderProjects/Tutorial3/Tutorial3/bin/Debug/netcoreapp3.1/appsettings.json
+/Users/michalarent/RiderProjects/Tutorial3/Tutorial3/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
+/Users/michalarent/RiderProjects/Tutorial3/Tutorial3/bin/Debug/netcoreapp3.1/Tutorial3.deps.json
+/Users/michalarent/RiderProjects/Tutorial3/Tutorial3/bin/Debug/netcoreapp3.1/Tutorial3.runtimeconfig.json
+/Users/michalarent/RiderProjects/Tutorial3/Tutorial3/bin/Debug/netcoreapp3.1/Tutorial3.runtimeconfig.dev.json
+/Users/michalarent/RiderProjects/Tutorial3/Tutorial3/bin/Debug/netcoreapp3.1/Tutorial3.dll
+/Users/michalarent/RiderProjects/Tutorial3/Tutorial3/bin/Debug/netcoreapp3.1/Tutorial3.pdb
+/Users/michalarent/RiderProjects/Tutorial3/Tutorial3/obj/Debug/netcoreapp3.1/Tutorial3.csprojAssemblyReference.cache
+/Users/michalarent/RiderProjects/Tutorial3/Tutorial3/obj/Debug/netcoreapp3.1/Tutorial3.MvcApplicationPartsAssemblyInfo.cache
+/Users/michalarent/RiderProjects/Tutorial3/Tutorial3/obj/Debug/netcoreapp3.1/Tutorial3.AssemblyInfoInputs.cache
+/Users/michalarent/RiderProjects/Tutorial3/Tutorial3/obj/Debug/netcoreapp3.1/Tutorial3.AssemblyInfo.cs
+/Users/michalarent/RiderProjects/Tutorial3/Tutorial3/obj/Debug/netcoreapp3.1/Tutorial3.RazorTargetAssemblyInfo.cache
+/Users/michalarent/RiderProjects/Tutorial3/Tutorial3/obj/Debug/netcoreapp3.1/staticwebassets/Tutorial3.StaticWebAssets.Manifest.cache
+/Users/michalarent/RiderProjects/Tutorial3/Tutorial3/obj/Debug/netcoreapp3.1/staticwebassets/Tutorial3.StaticWebAssets.xml
+/Users/michalarent/RiderProjects/Tutorial3/Tutorial3/obj/Debug/netcoreapp3.1/Tutorial3.dll
+/Users/michalarent/RiderProjects/Tutorial3/Tutorial3/obj/Debug/netcoreapp3.1/Tutorial3.pdb
