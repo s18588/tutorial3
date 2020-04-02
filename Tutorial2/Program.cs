@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Text;
 using System.Text.Json;
@@ -31,6 +32,7 @@ namespace Tutorial2
                         FirstName = student[0],
                         LastName = student[1],
                         MomName = student[7],
+                        Email = student[6],
                         DadName = student[8],
                         SNumber = student[4],
                         Birthdate = DateTime.Parse(student[5]),
@@ -52,14 +54,20 @@ namespace Tutorial2
                     list.Add(st);
                 } }
             
+            var uni = new University
+            {
+                CreatedAt = DateTime.Now.ToString("dd.MM.yyyy", DateTimeFormatInfo.InvariantInfo),
+                Author = "Michal Arent",
+                Students = list
+            };
+            
+            
             FileStream writer = new FileStream(@"data.xml", FileMode.Create);
-            XmlSerializer serializer = new XmlSerializer(typeof(List<Student>),new XmlRootAttribute("University"));
-            
-            
-            
-            serializer.Serialize(writer, list);
-            
-            var jsonString = JsonSerializer.Serialize(list); 
+            XmlSerializer serializer = new XmlSerializer(typeof(University),new XmlRootAttribute("University"));
+            serializer.Serialize(writer, uni);
+
+            var Wrapper = new Wrapper() {University = uni};
+            var jsonString = JsonSerializer.Serialize(Wrapper);
             File.WriteAllText("data.json", jsonString);
             
         }
